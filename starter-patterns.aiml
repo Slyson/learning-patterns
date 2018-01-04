@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml version="2.0">
-
+  <category>
+    <pattern>What is *</pattern>
+      <template> I don't know what </star> is </template>
+      <template> I can't see what </star> is </template>
+  
+  </category>
 </aiml>

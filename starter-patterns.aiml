@@ -5,6 +5,15 @@
      <pattern>What is *</pattern>
       <template> I don't know what </star> is </template>
       <template> I can't see what </star> is </template>
+     
+     <pattern> what would *</pattern>
+      <template> what would you </star> </template>
+      <template> what would i </star> </template>
+      
+     <pattern> what could *</pattern>
+      <template> what could have </star> </template>
+      <template> what could she </star> </template>
+      <template> what could he </star> </template>
       
      <pattern>How *</pattern>
       <template> How are  </star> </template>

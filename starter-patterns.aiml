@@ -20,6 +20,8 @@
       <template> How do </star> is </template>
       <template> How would </star> </template>
       <template> How is </star> </template>
+      <template> how could </star> </template>
+      <template> how should </star> </template>
       
      <pattern> *</pattern>
       <template> </star> </template>

@@ -13,6 +13,9 @@
       <template> How is </star> </template>
       
      <pattern> *</pattern>
+      <template> </star> </template>
+      
+     <pattern> *</pattern>
       <template> How is </star> </template>
   
   </category>

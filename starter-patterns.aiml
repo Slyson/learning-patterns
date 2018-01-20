@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml version="2.0">
-  <category>
+  <category>Questions
   
      <pattern>What is *</pattern>
       <template> I don't know what </star> is </template>
@@ -27,7 +27,12 @@
       <template> </star> </template>
       
      <pattern> *</pattern>
-      <template> How is </star> </template>
+      <template> </star> </template>
   
+  </category>
+  
+  <category>
+    <pattern> * </pattern>
+      <template> </star> </template>
   </category>
 </aiml>

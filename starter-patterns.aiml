@@ -35,4 +35,10 @@
     <pattern> * </pattern>
       <template> </star> </template>
   </category>
+  
+  <category>
+    <pattern>This is f***ing labourious * </pattern>
+      <template> </star> </template>
+  </category>
+  
 </aiml>

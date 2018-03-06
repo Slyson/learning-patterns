@@ -40,5 +40,9 @@
     <pattern>This is f***ing labourious * </pattern>
       <template> </star> </template>
   </category>
+  <comment>
+    It's almost fucking impossible to hard code every fathomable sentence in the world but this might not be a bad start for
+    the model architecture currently being built.
+  </comment>
   
 </aiml>

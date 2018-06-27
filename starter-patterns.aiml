@@ -15,34 +15,45 @@
   </category>
 
       
-     <pattern>How *</pattern>
-      <template> How are  </star> </template>
-      <template> How do </star> is </template>
-      <template> How would </star> </template>
-      <template> How is </star> </template>
-      <template> how could </star> </template>
-      <template> how should </star> </template>
-      
+ 
+<comment>The following section to be retyped for probable response</comment>
+  <category>Questions
+
+     <pattern>WHAT IS *</pattern>
+      <template> I don't know what </star> is
+        <li></li>
+      </template>
+      <template> I can't see what </star> is
+        <li></li>
+      </template>
+
+     <pattern> WHAT WOULD *</pattern>
+      <template> what would you </star>
+        <li></li>
+      </template>
+      <template> what would i </star>
+        <li></li>
+      </template>
+
+     <pattern> WHAT COULD *</pattern>
+      <template> what could have </star> <li></li> </template>
+      <template> what could she </star> <li></li> </template>
+      <template> what could he </star> <li></li> </template>
+
+     <pattern>HOW *</pattern>
+      <template> How are  </star> <li></li> </template>
+      <template> How do </star> is <li></li> </template>
+      <template> How would </star> <li></li> </template>
+      <template> How is </star> <li></li> </template>
+      <template> how could </star> <li></li> </template>
+      <template> how should </star> <li></li> </template>
+
      <pattern> *</pattern>
-      <template> </star> </template>
-      
+      <template> </star> <li></li> </template>
+
      <pattern> *</pattern>
-      <template> </star> </template>
-  
+      <template> </star> <li></li> </template>
+
   </category>
-  
-  <category>
-    <pattern> * </pattern>
-      <template> </star> </template>
-  </category>
-  
-  <category>
-    <pattern>This is f***ing labourious * </pattern>
-      <template> </star> </template>
-  </category>
-  <comment>
-    It's almost fucking impossible to hard code every fathomable sentence in the world but this might not be a bad start for
-    the model architecture currently being built.
-  </comment>
   
 </aiml>

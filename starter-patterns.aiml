@@ -56,4 +56,13 @@
 
   </category>
   
+  <category>
+    <pattern> * </pattern>
+      <template> </star> <li></li> </template>
+  </category>
+
+  <category>
+    <pattern>This is f***ing labourious * </pattern>
+      <template> </star> </template>
+  </category>
 </aiml>
